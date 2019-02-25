@@ -8,5 +8,6 @@
   
 #### 4. How would you explain a confidence interval to an engineer with no statistics background? What does 95% confidence mean?
   - [link](https://www.quora.com/What-is-a-confidence-interval-in-laymans-terms)
+  confidence level represents the portion of potential confidence interval which contain true value of unknown parameters
   
 #### 5. How would you explain to a group of senior executives why data is important?
