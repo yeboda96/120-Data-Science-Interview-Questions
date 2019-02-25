@@ -2,7 +2,8 @@
 
 #### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.
 #### 2. What is R2? What are some other metrics that could be better than R2 and why?
-  - goodness of fit measure. variance explained by the regression / total variance
+  - goodness of fit measure. portion of variance explained by the model
+  - variance explained by the regression / total variance
   - the more predictors you add the higher R^2 becomes.
     - hence use adjusted R^2 which adjusts for the degrees of freedom 
     - or train error metrics
@@ -99,3 +100,4 @@ where  is the ability of person  and  is the difficulty of item}.
   - <https://bl.ocks.org/rpgove/0060ff3b656618e9136b>
 #### 27. Let's say you're building the recommended music engine at Spotify to recommend people music based on past listening history. How would you approach this problem?
   - [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
+  - At first, people rate different items (like videos, images, games). After that, the system is making predictions about user's rating for an item, which the user hasn't rated yet. These predictions are built upon the existing ratings of other users, who have similar ratings with the active user. 
